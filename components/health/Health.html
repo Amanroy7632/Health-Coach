@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health | retreat-container</title>
+    <link rel="stylesheet" href="/common.css">
+    <style>
+        .heading-text h1{
+            /* margin-top: 7vh; */
+            padding-top: 1rem;
+            text-align: center;
+            color: black;
+        }
+    .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .retreat-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .retreat {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .retreat img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .retreat-info {
+    padding: 20px;
+  }
+  
+  .retreat-info h2 {
+    margin-top: 0;
+  }
+  
+  .retreat-info p {
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .retreat-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .retreat {
+      width: calc(50% - 20px);
+      margin-right: 20px;
+    }
+    .retreat:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .retreat {
+      width: calc(33.33% - 20px);
+    }
+    .retreat:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-searchMenu">
+            <div class="logo">🩺 Health <span class="span-tracker">Coach</span></div>
+            <div class="input-container">
+                <form class="search-form">
+                    <input type="text" id="search">
+                    <button>🔍</button>
+                </form>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/components/diet/diet.html" >Diet</a></li>
+                <li><a href="/components/health/Health.html">Heath Treats</a></li>
+                <li><a href="https://github.com/Amanroy7632" target="_blank">Github</a></li>
+            </ul>
+        </nav>
+        <div
+          class="hamburg-icon">
+          <span></span>
+          <span ></span>
+          <span></span>
+        </div>
+    </header>
+    <section class="padding-section">
+        
+    </section>
+    <main>
+        <div class="heading-text">
+            <h1>Health retreats</h1>
+        </div>
+        <div class="container">
+            <div class="retreat-container" id="treats">
+              <!-- <div class="retreat">
+                <h2>Yoga Retreat</h2>
+                <p>Relax, rejuvenate, and restore your mind and body with daily yoga sessions, meditation, and healthy meals in a serene natural setting.</p>
+              </div>
+              <div class="retreat">
+                <h2>Detox Retreat</h2>
+                <p>Cleanse your body and mind with a detox retreat featuring detoxifying treatments, nutrient-rich juices, and wellness workshops.</p>
+              </div>
+              <div class="retreat">
+                <h2>Wellness Retreat</h2>
+                <p>Experience holistic wellness with a wellness retreat focusing on nutrition, fitness, mindfulness, and self-care practices.</p>
+              </div>
+              <div class="retreat">
+                <h2>Nature Retreat</h2>
+                <p>Reconnect with nature and yourself on a nature retreat featuring outdoor activities, hiking, eco-friendly accommodations, and healthy cuisine.</p>
+              </div> -->
+            </div>
+          </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Health Coach. All rights reserved.</p>
+    </footer>
+    <script src="health.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazing Health retreat-container</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .retreat-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .retreat {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .retreat h2 {
+    margin-top: 0;
+  }
+  
+  .retreat p {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Amazing Health retreat-container</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="retreat-container">
+    <div class="retreat">
+      <h2>Yoga Retreat</h2>
+      <p>Relax, rejuvenate, and restore your mind and body with daily yoga sessions, meditation, and healthy meals in a serene natural setting.</p>
+    </div>
+    <div class="retreat">
+      <h2>Detox Retreat</h2>
+      <p>Cleanse your body and mind with a detox retreat featuring detoxifying treatments, nutrient-rich juices, and wellness workshops.</p>
+    </div>
+    <div class="retreat">
+      <h2>Wellness Retreat</h2>
+      <p>Experience holistic wellness with a wellness retreat focusing on nutrition, fitness, mindfulness, and self-care practices.</p>
+    </div>
+    <div class="retreat">
+      <h2>Nature Retreat</h2>
+      <p>Reconnect with nature and yourself on a nature retreat featuring outdoor activities, hiking, eco-friendly accommodations, and healthy cuisine.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Amazing Health retreat-container. All rights reserved.</p>
+</footer>
+
+</body>
+</html> -->

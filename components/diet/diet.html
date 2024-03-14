@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gut-Friendly Meal Plans</title>
+    <style>
+        .input-container {
+            gap: 0;
+            width: 30%;
+            /* width: fit-content; */
+            border-radius: 2rem;
+        }
+        .input-container input {
+            width: 85%;
+            font-size: 1.1rem;
+            padding: 0.4rem;
+            border: none;
+            outline: none;
+            border-radius: 2rem 0 0 2rem;
+            background-color: gray;
+            color: #fff;
+        }
+
+        .input-container.border {
+            border: 1px solid #0ef;
+        }
+
+        .input-container button {
+
+            width: 15%;
+            font-size: 1.1rem;
+            padding: 0.4rem;
+            border: none;
+            border-radius: 0 2rem 2rem 0;
+        }
+
+        .input-container form {
+            display: flex;
+        }
+
+        .hero-section {
+            background-image: url('/images/dan-gold-4_jhDO54BYg-unsplash.jpg');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-content h1 {
+            color: blue;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .hero-content a {
+            text-decoration: none;
+            color: #0ef;
+            font-size: 1.2rem;
+            /* border: 2px solid #fff; */
+            padding: 0.5rem;
+            background-color: black;
+            /* background: #fff; */
+            border-radius: 1rem;
+            font-weight: 700;
+            transition: all 0.3s ease-in-out;
+            backdrop-filter: blur(12px);
+        }
+
+        .hero-content a:hover {
+            background: transparent;
+            border: 1px solid #fff;
+        }
+
+        .main-section {
+            margin-top: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            /* margin: 20px auto; */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .brown-span {
+            color: brown;
+        }
+
+        .meal-plan {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .meal {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .meal h2 {
+            margin-top: 0;
+        }
+
+        .meal p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+
+            /* position: fixed; */
+            /* bottom: 0; */
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="/common.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-searchMenu">
+            <div class="logo">🩺 Health <span class="span-tracker">Coach</span></div>
+            <div class="input-container">
+                <form class="search-form">
+                    <input type="text" id="search">
+                    <button>🔍</button>
+                </form>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="diet.html" >Diet</a></li>
+                <li><a href="https://github.com/Amanroy7632" target="_blank">Github</a></li>
+            </ul>
+        </nav>
+        <div class="hamburg-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1><span class="span-tracker">Health</span> is <span class="brown-span">Wealth</span></h1>
+            <p>Invest time and effort to accumulate wealth, it's essential to invest in maintaining and improving our
+                health.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+    <section class="main-section">
+
+        <div class="container">
+            <h1></h1>
+            <div class="meal-plan">
+                <div class="meal">
+                    <h2>Probiotic Breakfast Bowl</h2>
+                    <p>A delicious breakfast bowl packed with probiotic-rich yogurt, fresh berries, and nuts.</p>
+                </div>
+                <div class="meal">
+                    <h2>Prebiotic Salad</h2>
+                    <p>A refreshing salad featuring prebiotic ingredients like leafy greens, avocado, and chickpeas.</p>
+                </div>
+                <div class="meal">
+                    <h2>Fiber-Rich Stir-Fry</h2>
+                    <p>A flavorful stir-fry loaded with fiber-rich vegetables such as broccoli, bell peppers, and
+                        carrots.</p>
+                </div>
+                <div class="meal">
+                    <h2>Quinoa Power Bowl</h2>
+                    <p>A nutrient-packed power bowl made with quinoa, black beans, spinach, and a tangy yogurt dressing.
+                    </p>
+                </div>
+                <div class="meal">
+                    <h2>Small, Frequent Meals</h2>
+                    <p>Eating smaller, more frequent meals throughout the day can help reduce the workload on the
+                        digestive system and alleviate symptoms such as bloating and discomfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Health Coach. All rights reserved.</p>
+    </footer>
+    <script src="/index.js"></script>
+</body>
+
+</html>

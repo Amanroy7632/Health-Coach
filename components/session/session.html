@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Cure & Healthy Lifestyle Sessions</title>
+  <link rel="stylesheet" href="/common.css">
+  <style>
+    .container {
+      max-width: 70%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .image-container {
+      background-image: url("https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=2048x2048&w=is&k=20&c=cJasnH6-720p10tQl-kxhO7VCNjzbTs5aOhNt2AoVfk=");
+      background-attachment: fixed;
+      box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 160px 15px;
+      height: 50vh;
+    }
+
+    .session {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .session h2 {
+      margin-top: 0;
+    }
+
+    .session p {
+      margin-bottom: 10px;
+    }
+
+    .session ul li {
+      margin-left: 2rem;
+    }
+
+    .contact-form-container h2 {
+      text-align: center;
+    }
+
+   
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px 0;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .nature-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .parent-div {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+    }
+
+    .image-container-doctor {
+      width: 25%;
+      text-align: center;
+    }
+
+    .image-container-doctor img {
+      width: 90%;
+      /* padding: 1rem; */
+    }
+
+    .content-container {
+      width: 50%;
+    }
+    .content-container p{
+      padding-top: 1rem;
+    }
+    .content-container h1{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .nature-container button{
+       width: 80%;
+       padding: 0.5rem;
+       font-size: 1.2rem;
+       cursor: pointer;
+       margin-top: 1rem;
+       background-color: #327B74;
+       color: #fff;
+       outline: none;
+       border: none;
+       font-weight: 600;
+    }
+    .padding-section marquee{
+      transition-duration: 0.1s;
+    }
+    .padding-section h1{
+      text-align: center;
+    }
+   
+    /* @media screen and (max-width: 420px){
+      .image-container-doctor{
+        width: 90%;
+      }
+      .content-container{
+        width: 90%;
+      }
+    } */
+    .tharapy-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      /* height: 50vh; */
+    }
+    .heading-part{
+      /* padding: 2rem 1rem; */
+      padding-bottom: 4rem;
+    }
+    .content-container-main{
+      /* border: 1px solid red; */
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    .box-container{
+      border: 1px solid #333;
+      /* width: 45%; */
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      gap: 1rem;
+    }
+    .btn-brown{
+      width: 50%;
+      background-color: #333;
+      color: #fff;
+      font-size: 1.2rem;
+      border-radius: 2rem;
+      padding: 0.5rem;
+      cursor: pointer;
+    }
+    @media (max-width: 768px){
+      .parent-div  {
+        /* display: block; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .image-container-doctor{
+        width: 90%;
+      }
+      .content-container{
+        width: 90%;
+      }
+      .content-container h1{
+        font-size: 1.2rem;
+      }
+      .content-container-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .box-container{
+        /* width: 90%; */
+        width: 100%;
+      }
+      .btn-brown{
+        width: 90%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="logo-searchMenu">
+      <div class="logo">🩺 Health <span class="span-tracker">Coach</span></div>
+      <div class="input-container">
+        <form class="search-form">
+          <input type="text" id="search">
+          <button>🔍</button>
+        </form>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav-ul">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/components/diet/diet.html" >Diet</a></li>
+        <li><a href="https://github.com/Amanroy7632" target="_blank">Github</a></li>
+      </ul>
+    </nav>
+    <div class="hamburg-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <div class="image-container">
+    <h1 style="color: #fff;">AAI NATURE CURE</h1>
+    <p style="color: #fff; padding-top: 1rem;">DR. PAWAR FOUNDATIONS HEALTH CARE, EDUCATION & RESEARCH CENTER</p>
+  </div>
+  <section class="padding-section">
+        <marquee behavior=""  direction="">AAI NATURE CURE - Dr. Pawar Foundations Health Care, Education & Research Center : A New Naturopathy Center in Kalyan, Maharashtra</marquee>
+</section>
+  <section class="nature-container">
+    <div class="parent-div">
+      <div class="image-container-doctor">
+        <img src="https://aphinfo.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-20-at-18.18.59-1024x688.jpeg"
+          alt="">
+        <p>Smt. Mangala Ashok Pawar, Founder</p>
+      </div>
+      <div class="content-container">
+        <h1>ABOUT AAI NATURE CURE NATUROPATHY CENTER</h1>
+        <p>Aai Nature Cure is a naturopathy center established by our beloved mother Smt. Mangala Ashok Pawar in Kalyan
+          West, Dist. Thane, Maharashtra, India. This is an authorized training center of Ashokmangalam Welfare
+          Foundation, Kalyan.</p>
+        <p>We, at AAI Nature Cure, believe in the innate idea of healing both body and mind going absolutely natural. We
+          believe in the pseudo-scientific treatment process which definitely includes non-invasive and self-healing
+          practices. Based in Kalyan, Maharashtra, our naturopathy team is dedicated in offering their services by
+          sharing their wide knowledge base and expertise for optimal patient care. We are committed to magnify
+          patients’ satisfaction and that belief have helped us garner a vast clientele, which continues to grow by
+          everyday. </p>
+
+      </div>
+    </div>
+    <button onclick="window.location.href='offlineSession.html'">Book An Appointment (For Online / Offline Consultancy - Click here)</button>
+  </section>
+  <section class="padding-section">
+    
+</section>
+ <section class="tharapy-section">
+  <div class="heading-part">
+    <h1>THERAPIST AVAILABLE</h1>
+  </div>
+  <div class="content-container-main">
+    <div class="box-container">
+      <h3>DR. HARSHAL ASHOK PAWAR</h3>
+      <h4>MD (AM), DNYS, DYA, D. Psychology,  M. Pharm., PhD. </h4>
+      <p>(Registered Acupuncturist with Maharashtra Govt.)</p>
+      <p>7pm-10pm(Evening)</p>
+      <p>+91-80971xxxxx</p>
+      <button class="btn-brown">Join Whatsap</button>
+    </div>
+    <div class="box-container">
+      <h3>DR. HARSHAL ASHOK PAWAR</h3>
+      <h4>MD (AM), DNYS, DYA, D. Psychology,  M. Pharm., PhD. </h4>
+      <p>(Registered Acupuncturist with Maharashtra Govt.)</p>
+      <p>7pm-10pm(Evening)</p>
+      <p>+91-80971xxxxx</p>
+      <button class="btn-brown">Join Whatsap</button>
+    </div>
+  </div>
+ </section>
+  
+  <div class="container session-container">
+    <h1 style="text-align: center;">Online Sessions on Nature Cure & Healthy Lifestyle</h1>
+    <p>Join us for enriching sessions focused on embracing nature cure principles and adopting a healthy lifestyle.
+      Whether you prefer online or offline sessions, we have options available for everyone.</p>
+
+    <div class="session">
+      <h2>Online Sessions</h2>
+      <p>Attend our online sessions from the comfort of your home. Interact with expert practitioners and learn about
+        nature cure therapies, holistic nutrition, yoga, meditation, and more.</p>
+      <p>Upcoming Online Sessions:</p>
+      <ul>
+        <li>Introduction to Nature Cure - Date & Time</li>
+        <li>Healthy Eating Habits - Date & Time</li>
+        <li>Stress Management Techniques - Date & Time</li>
+      </ul>
+    </div>
+
+    
+  </div>
+ 
+  <footer>
+    <p>&copy; 2024 Health Coach. All rights reserved.</p>
+</footer>
+<script src="/index.js"></script>
+</body>
+
+</html>
